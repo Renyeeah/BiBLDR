@@ -1,0 +1,25 @@
+{
+    "hyperparameters": {
+        "dataset": "lrssl",
+        "K": 10,
+        "seqlen_drug_behavior": 6,
+        "seqlen_disease_behavior": 4,
+        "seed": 2047,
+        "dropout": 0.01,
+        "num_heads": 8,
+        "promote_embedding_dim": 1024,
+        "execute_stage1": false,
+        "stage1_epochs": 500,
+        "stage1_batch_size": 1024,
+        "stage1_lr": 0.01,
+        "epochs": 1,
+        "batch_size": 512,
+        "lr": 0.0001,
+        "rating_T": 3,
+        "sparse": 1,
+        "eval_margin": 1,
+        "T_score": 0.5
+    },
+    "auroc": 0.9950161788987885,
+    "aupr": 0.9964895507186569
+}

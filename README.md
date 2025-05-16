@@ -5,7 +5,7 @@ Drug repositioning aims to identify potential new indications for existing drugs
 ![The proposed BiBLDR framework. (a) Utilize similarity data to construct prototype spaces for drugs and diseases separately. (b) Utilize prototypes and bidirectional behavioral sequence information to predict drug-disease associations.](main.png)
 ## Requirements
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 ## Run
 ### Gdataset
